@@ -1,0 +1,15 @@
+.header {
+    background-color: #222;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .header h1 {
+    font-size: 24px;
+  }
+  
+  .header p {
+    font-size: 16px;
+  }
+  
