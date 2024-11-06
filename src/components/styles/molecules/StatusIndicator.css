@@ -1,0 +1,17 @@
+.status-indicator {
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    transition: background-color 0.3s;
+  }
+  
+  .status-indicator.active {
+    background-color: green;
+  }
+  
+  .status-indicator.inactive {
+    background-color: red;
+  }
+  
