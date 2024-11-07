@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../styles/organisms/ReportsGenerator.css';
+import '../styles/organisms/ReportsGenerator.css';
 
 const ReportsGenerator = () => (
   <div className="reports-generator">

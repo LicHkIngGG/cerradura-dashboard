@@ -1,23 +1,18 @@
-.door-control-panel {
-    text-align: center;
-    padding: 20px;
-  }
-  
-  .door-control-panel button {
-    padding: 15px 30px;
-    font-size: 1.2em;
-    border: none;
-    border-radius: 8px;
-    color: white;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  .door-control-panel .locked {
-    background-color: red;
-  }
-  
-  .door-control-panel .unlocked {
-    background-color: green;
-  }
-  
+.door-control-panel button {
+  background-color: #28a745; /* Verde para "Desbloqueado" */
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.1em;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.door-control-panel button.locked {
+  background-color: #dc3545; /* Rojo para "Bloqueado" */
+}
+
+.door-control-panel button:hover {
+  opacity: 0.9;
+}

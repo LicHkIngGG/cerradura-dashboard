@@ -1,12 +1,25 @@
 .reports-generator {
-    text-align: center;
-    padding: 20px;
-  }
-  
-  .reports-generator button {
-    margin: 10px;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  
+  text-align: center;
+  padding: 20px;
+  color: #e0e0e0;
+}
+
+.reports-generator .buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.reports-generator button {
+  padding: 10px 20px;
+  background-color: #444;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.reports-generator button:hover {
+  background-color: #555;
+}

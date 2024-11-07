@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../styles/organisms/FacialRecognitionPanel.css';
+import '../styles/organisms/FacialRecognitionPanel.css';
 import Button from '../atoms/Button';
 
 const FacialRecognitionPanel = () => (

@@ -1,8 +1,9 @@
 import React from 'react';
-import '../../styles/atoms/Title.css';
+import '../styles/atoms/Title.css';
 
-const Title = ({ text }) => {
-  return <h1 className="title">{text}</h1>;
+const Title = ({ text, level }) => {
+  const Tag = `h${level}`;
+  return <Tag className="title">{text}</Tag>;
 };
 
 export default Title;

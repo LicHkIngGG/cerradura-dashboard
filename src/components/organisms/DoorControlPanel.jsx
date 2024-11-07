@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../../styles/organisms/DoorControlPanel.css';
+import '../styles/organisms/DoorControlPanel.css';
 
 const DoorControlPanel = () => {
   const [isLocked, setIsLocked] = useState(false);

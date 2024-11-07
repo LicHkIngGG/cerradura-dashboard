@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../styles/molecules/NotificationBell.css';
+import '../styles/molecules/NotificationBell.css';
 
 const NotificationBell = ({ notifications }) => (
   <div className="notification-bell">

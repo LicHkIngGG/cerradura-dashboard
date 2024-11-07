@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../styles/organisms/AttendanceTable.css';
+import '../styles/organisms/AttendanceTable.css';
 
 const AttendanceTable = ({ data }) => (
   <div className="attendance-table">
