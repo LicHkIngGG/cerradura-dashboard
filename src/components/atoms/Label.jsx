@@ -1,10 +1,6 @@
 import React from 'react';
 import '../../styles/atoms/Label.css';
 
-const Label = ({ text, htmlFor }) => (
-  <label className="label" htmlFor={htmlFor}>
-    {text}
-  </label>
-);
+const Label = ({ text }) => <span className="label">{text}</span>;
 
 export default Label;

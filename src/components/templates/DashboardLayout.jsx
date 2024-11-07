@@ -13,18 +13,17 @@ const DashboardLayout = ({ activePanel, onPanelChange }) => (
     <Header />
     <main className="main-content">
       {activePanel === 'control' && <DoorControlPanel />}
-      {activePanel === 'attendance' && <AttendanceTable data={attendanceData} />}
+      {activePanel === 'attendance' && <AttendanceTable data={sampleData} />}
       {activePanel === 'reports' && <ReportsGenerator />}
       {activePanel === 'recognition' && <FacialRecognitionPanel />}
     </main>
   </div>
 );
 
-export default DashboardLayout;
-
-// Sample data for testing
+// Datos de ejemplo para el componente AttendanceTable
 const sampleData = [
   { id: 1, name: 'Roberto Sea', time: '07:43', date: '06-11-2024' },
   { id: 2, name: 'Jose Rojas', time: '07:45', date: '06-11-2024' },
 ];
 
+export default DashboardLayout;

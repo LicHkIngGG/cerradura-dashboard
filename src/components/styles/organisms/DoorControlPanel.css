@@ -1,18 +1,14 @@
 .door-control-panel button {
-  background-color: #28a745; /* Verde para "Desbloqueado" */
+  background-color: #28a745;
   border: none;
   color: white;
   padding: 15px 30px;
-  font-size: 1.1em;
+  font-size: 1em;
   cursor: pointer;
   border-radius: 8px;
   transition: background-color 0.3s ease;
 }
 
 .door-control-panel button.locked {
-  background-color: #dc3545; /* Rojo para "Bloqueado" */
-}
-
-.door-control-panel button:hover {
-  opacity: 0.9;
+  background-color: #dc3545;
 }
