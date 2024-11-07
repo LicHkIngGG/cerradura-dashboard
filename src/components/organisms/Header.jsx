@@ -23,7 +23,7 @@ const Header = () => {
         </div>
         <div className="user-profile">
           <Icon src="/src/assets/profile.png" alt="User" className="profile-icon" />
-          <span>Emerson</span>
+          <span>User</span>
         </div>
       </div>
       {showNotifications && (

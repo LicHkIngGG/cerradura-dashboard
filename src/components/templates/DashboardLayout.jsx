@@ -20,7 +20,7 @@ const DashboardLayout = ({ activePanel, onPanelChange }) => (
   </div>
 );
 
-// Datos de ejemplo para el componente AttendanceTable
+// Datos de ejemplo para `AttendanceTable`
 const sampleData = [
   { id: 1, name: 'Roberto Sea', time: '07:43', date: '06-11-2024' },
   { id: 2, name: 'Jose Rojas', time: '07:45', date: '06-11-2024' },

@@ -21,7 +21,7 @@ const Sidebar = ({ onPanelChange }) => (
     </div>
     <div className="icon" onClick={() => onPanelChange('recognition')}>
       <img src="/src/assets/reg-camara.png" alt="Reconocimiento Facial" />
-      <span>Reconocimiento Facial</span>
+      <span>Rec. Facial</span>
     </div>
     <div className="icon" onClick={() => onPanelChange('support')}>
       <img src="/src/assets/help.png" alt="Soporte" />
